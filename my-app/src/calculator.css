@@ -1,0 +1,29 @@
+.button-group {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-group > * {
+  flex: 0 0 33.3333%;
+}
+
+.button {
+  display: block;
+  
+  width: 100%;
+  padding: 10px;
+}
+
+.input-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  cursor: not-allowed;
+}
